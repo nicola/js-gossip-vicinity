@@ -1,0 +1,34 @@
+{
+  "name": "gossip-vicinity",
+  "version": "0.1.0",
+  "description": "Vicinity Gossip algorithm implemented in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony_default_parameters test/ --bail",
+    "test-debug": "DEBUG='gossip:vicinity:*' mocha --harmony_default_parameters test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicola/js-gossip-vicinity"
+  },
+  "keywords": [
+    "vicinity",
+    "gossip",
+    "p2p",
+    "decentralization"
+  ],
+  "author": "Nicola Greco <me@nicola.io> (http://nicolagreco.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicola/js-gossip-vicinity/issues"
+  },
+  "homepage": "https://github.com/nicola/js-gossip-vicinity",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "run-parallel": "^1.1.6",
+    "run-series": "^1.1.4"
+  }
+}
